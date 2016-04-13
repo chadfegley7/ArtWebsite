@@ -1,0 +1,107 @@
+#navText{
+  position: relative;
+  top: 35px;
+  font-size: 35px;
+  display: inline;
+  font-family: Zapfino;
+  color: white;
+}
+#viewArt{
+  position: relative;
+  bottom: 50px;
+  display: inline;
+
+}
+#navBar{
+  height: 75px;
+  background: black;
+  border: black;
+}
+#jumbo1{
+  background-image: url("/static/pics/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+#jumbo2{
+  height: 1325px;
+  background-color: black;
+  margin-bottom: -25px;
+  margin-top: -50px;
+}
+#jumboArt{
+  height: 600px;
+  background-image: url("/static/pics/glowing.jpg");
+  background-size: cover;
+}
+#storytelling{
+  font-family: Zapfino;
+  font-size: 35px;
+  color: white;
+}
+#aboutMitch{
+  position: relative;
+  top: 50px;
+  font-family: Savoye LET;
+  font-size: 30px;
+  color: white;
+}
+#quote1{
+  position: relative;
+  color: red;
+  font-family: Zapfino;
+}
+#mitch{
+  height: 400px;
+  width: 300px;
+  margin-top: 30px;
+}
+#quote2{
+  position: relative;
+  color: red;
+  font-family: Zapfino;
+}
+#aboutMitch2{
+  position: relative;
+  font-family: Savoye LET;
+  font-size: 30px;
+  color: white;
+}
+*{box-sizing: border-box;}
+.flowGrid:before,.flowGrid:after{
+    content: "";
+    display: table;
+}
+.flowGrid:after{
+    clear:both;
+}
+.flowGridItem{ margin-bottom:10px;}
+.flowGridItem img{width:100%;}
+.flowGridColumn{
+    float: left;
+    padding-left: 10px;
+}
+.flowGridColumn:last-of-type{
+    padding-right: 10px;
+}
+#artGallery{
+  font-family: Zapfino;
+  font-size: 30px;
+  color: white;
+}
+#galleryText{
+  font-family: Savoye LET;
+  font-size: 35px;
+  color: white;
+}
+#gallery{
+  width: 300px;
+  margin: 15px;
+}
+#pictures{
+  background-color: black;
+  margin-top: -30px;
+}
+li{
+  display: inline-block;
+}
